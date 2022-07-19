@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500&display=swap");
+.create-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Edu SA Beginner", cursive;
+}
+
+.create-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    height: 700px;
+    background-color: rgb(255, 252, 252);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 100px;
+}
+
+h1.create-new-product {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.form-create p {
+    margin-right: 200px;
+}
+
+.centerButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input#basic_product_name.ant-input,
+input#basic_category.ant-input,
+input#basic_stock_left.ant-input {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+input#product_name.ant-input,
+input#category.ant-input,
+input#stock_left.ant-input {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}

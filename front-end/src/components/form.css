@@ -1,0 +1,11 @@
+label.ant-form-item-required {
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+    font-weight: 700;
+}
+
+button {
+    width: 200px;
+    border-radius: 20px;
+}
